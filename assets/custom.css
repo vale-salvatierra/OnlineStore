@@ -1,0 +1,48 @@
+.bg-purple {
+    background-color: #6A0DAD;
+  }
+
+  .hero-section {
+    background: linear-gradient(to right, #6A0DAD, #007bff); /* Morado a azul */
+    color: white;
+    padding: 40px 25px;
+  }
+
+  .button-light{
+    background-color: white;
+    color: #6a11cb;
+    border: none;
+  }
+  .button-light:hover{
+    background-color: #6A0DAD;
+    color: white;
+    border: 1px solid white;
+  }
+  .badge-purple{
+    background-color: #6b11cb2f;
+    color: #6a11cb;
+    border: none;
+    font-size: 1rem;
+  }
+  .button-link{
+    text-decoration: none;
+    color:#6a11cb;
+  }
+  .button-link:hover{
+    text-decoration: underline;
+    color:#6a11cb;
+  }
+
+  .fs-8{
+    font-size: 14px;
+  }
+  .custom-border{
+    border-top: 2px solid gray;
+    width: 100%;
+    margin: 0;
+
+  }
+
+  .cards-e:hover{
+    box-shadow: 0 4px 6px 1px lightgrey;
+  }

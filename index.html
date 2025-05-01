@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/custom.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <title>Bootstrap Project</title>
+</head>
+
+<body>
+  <header class="">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-2  bg-purple text-white">
+      <div class="container-fluid">
+        
+
+        <!-- nav bar -->
+        <button class="navbar-toggler text-white border border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list fs-1 "></i>
+        </button>
+        <a class="navbar-brand fw-bolder mb-0 text-white" href="#">TiendaChic</a>
+        <div class="d-sm-none d-flex align-items-center ">
+                
+          <i class="bi bi-search fs-6 me-1"></i>
+          <i class="bi bi-person fs-6 me-1"></i>
+        <div class=" position-relative ">
+          <i class="bi bi-heart fs-6 me-3"></i>
+          <span class="position-absolute  start-50  badge rounded-pill bg-danger" style="font-size: 0.5rem;">
+            2
+          </span>
+        </div>
+        <div class=" position-relative">
+          <i class="bi bi-cart fs-6 me-1 "></i>
+          <span class="position-absolute  start-50  badge rounded-pill bg-danger" style="font-size: 0.5rem;">
+            3
+          </span>
+        </div>
+      </div>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup"> <!--menu -->
+          <div class="d-flex justify-content-center justify-content-lg-between  w-100">
+            <div class="d-none d-lg-block"></div>
+            <div class="navbar-nav text-center ">
+              <a class="nav-link active text-white" aria-current="page" href="#inicio">Inicio</a>
+              <a class="nav-link text-white" href="#productos">Productos</a>
+              <a class="nav-link text-white" href="#categorias">Categorias</a>
+              <a class="nav-link text-white" href="#ofertas">Ofertas</a>
+              <a class="nav-link text-white" href="#contacto">Contacto</a>
+            </div>
+            <div>
+              <!-- icons -->
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+        <div class="d-none d-sm-flex align-items-center gap-2">
+                
+          <i class="bi bi-search fs-5 "></i>
+          <i class="bi bi-person fs-5"></i>
+        <div class=" position-relative">
+          <i class="bi bi-heart fs-5 me-md-3"></i>
+          <span class="position-absolute  start-50  badge rounded-pill bg-danger" style="font-size: 0.6rem;">
+            2
+          </span>
+        </div>
+        <div class=" position-relative">
+          <i class="bi bi-cart fs-5"></i>
+          <span class="position-absolute  start-50  badge rounded-pill bg-danger" style="font-size: 0.6rem;">
+            3
+          </span>
+        </div>
+      </div>
+    </nav>
+    
+  </header>
+  <main>
+    <!-- inicio -->
+    <div class="container-fluid hero-section">
+      <div class="container">
+        <div class="row align-items-center" id="inicio">
+          <!-- left section -->
+          <div class="col-md-6 text-start">
+            <h1 class="fw-bolder display-5">Descubre las últimas tendencias</h1>
+            <p class="lead">Encuentra todo lo que necesitas con los mejores precios y calidad garantizada.
+            </p>
+  
+            <div class="d-flex gap-3">
+              <button class=" btn button-light">Comprar ahora</button>
+              <button class="btn button-light">Ver catálogo</button>
+            </div>
+          </div>
+          <!-- right section image -->
+          <div class="col-md-6 mt-4 mt-md-0 p-2">
+            <div class=" d-flex justify-content-center align-items-center">
+              <img src="https://picsum.photos/800/400" alt="" class="img-fluid rounded">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- categorias populares -->
+    <div class="container-fluid py-5" style="background-color: rgba(211, 211, 211, 0.232)" id="categorias">
+      <div class="container">
+        <div class="mb-4 text-center">
+          <h2 class="fw-bold">Categorias Populares</h2>
+        </div>
+        <div class="row row-cols-md-4">
+          <div class="col">
+            <div class="card cards-e">
+              <img src="https://picsum.photos/800/400" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ropa</h5>
+                <a class=" btn text-decoration-none ps-0 py-0" style="color: #6A0DAD;">Ver Productos ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card cards-e">
+              <img src="https://picsum.photos/800/400" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Calzado</h5>
+                <a class=" btn text-decoration-none ps-0 py-0" style="color: #6A0DAD;">Ver Productos ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card cards-e">
+              <img src="https://picsum.photos/800/400" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Accesorios</h5>
+                <a class=" btn text-decoration-none ps-0 py-0" style="color: #6A0DAD;">Ver Productos ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card cards-e">
+              <img src="https://picsum.photos/800/400" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Electrónica</h5>
+                <a class=" btn text-decoration-none ps-0 py-0" style="color: #6A0DAD;">Ver Productos ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+
+    <!-- filtrar productos -->
+
+    <div class=" container-fluid py-5" id="productos">
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 col-lg-4">
+            <h3 class="fw-bold mb-3"> Filtrar Productos </h3>
+          </div>
+          <div class="col-12 col-lg-4 mb-2">
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <label for="categoria" class="form-label text-muted fs-6 fw-semibold">Categoría</label>
+                <select name="categoria" id="categoria"
+                  class=" form-select form-control px-3 py-2 bg-white border border-gray-300 rounded">
+                  <option value="">Todas las Categorias</option>
+                  <option value="ropa">Ropa</option>
+                  <option value="calzado">Calzado</option>
+                  <option value="accesorios">Accesorios</option>
+                  <option value="electronica">Electrónica</option>
+                </select>
+              </div>
+              <div class="col-lg-6 col-12">
+                <label for="sort" class="form-label text-muted fs-6 fw-semibold">Ordenar por</label>
+                <select name="sort" id="sort" class=" form-select form-control px-3 py-2 bg-white border border-gray-300 rounded">
+                  <option value="destacados">Destacados</option>
+                  <option value="precio menor">Precio: Menor a Mayor</option>
+                  <option value="precio mayor">Precio: Mayor a Menor</option>
+                  <option value="mas recientes">Mas recientes</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mb-3">
+            <div class="row align-items-end">
+              <div class="col-lg-6 col-12">
+                <label for="precio" class=" form-label text-muted fs-6 fw-semibold">Precio</label>
+                <select name="precio" id="precio" class="form-select form-control px-3 py-2 bg-white border border-gray-300 rounded">
+                  <option value="">Todos los precios</option>
+                  <option value="0-25">$0-$25</option>
+                  <option value="25-50">$25-$50</option>
+                  <option value="50-100">$50-$100</option>
+                  <option value="100+">$100+</option>
+                </select>
+              </div>
+              <div class="col-lg-6 col-12">
+                <button class="btn w-100 rounded text-light mt-4 py-2 fw-semibold"
+                  style="background-color: #6a11cb; border: none;">
+                  Aplicar Filtros
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <span class="badge badge-purple rounded-pill fw-normal fs-8 ">
+              Ropa <a class="ml-2 fs-8 text-decoration-none ps-2 pb-2" style="color:#6a11cb;">x</a>
+            </span>
+            <span class="badge badge-purple rounded-pill fw-normal fs-8">
+              $25-$50 <a class="ml-2 fs-8 text-decoration-none ps-2 pb-2" style="color:#6a11cb;">x</a>
+            </span>
+            <a href="" class="button-link fs-8">Limpiar todos los filtros</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+
+    <!-- productos-destacados -->
+    <hr class="my-0">
+    <div class="container-fluid py-5" id="ofertas">
+      <div class="container">
+        <div class="mb-4 text-center">
+          <h2 class="fw-bold">Productos Destacados</h2>
+        </div>
+        <div class="row row-cols-md-4 row-cols-1 ">
+          <div class="col py-4">
+            <div class="card cards-e">
+              <div class="position-relative">
+                <img src="https://picsum.photos/800/400" class="card-img-top" alt="...">
+            
+                <!-- Badge Oferta -->
+                <span class=" py-1 px-2 badge  position-absolute top-0 start-0 m-2 fw-normal bg-danger">Oferta</span>
+            
+                <!-- Botón Corazón -->
+                <button type="button" class=" border-0 bg-white position-absolute top-0 end-0 m-2 rounded-circle px-2 py-1" style="font-size: 0.9rem;"><i class="bi bi-heart"></i></button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Camiseta Casual</h5>
+                <h5 class="card-text fw-bold" style="color: #6A0DAD;">$24.99 <span
+                    class="text-muted fw-lighter fs-6 text-decoration-line-through">$29.99</span></h5>
+                <button class="btn w-100 rounded text-light" style="background-color: #6a11cb; border: none;">
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col py-4">
+            <div class="card cards-e">
+              <img src="https://picsum.photos/800/400" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Zapatillas Deportivas</h5>
+                <h5 class="card-text fw-bold" style="color: #6A0DAD;">$59.99</h5>
+                <button class="btn w-100 rounded text-light" style="background-color: #6a11cb; border: none;">
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col py-4">
+            <div class="card cards-e">
+              <div class="position-relative">
+                <img src="https://picsum.photos/800/400" class="card-img-top" alt="...">
+            
+                <!-- Badge Oferta -->
+                <span class=" py-1 px-2 badge  position-absolute top-0 start-0 m-2 fw-normal bg-danger">Oferta</span>
+            
+                <!-- Botón Corazón -->
+                <button type="button" class=" border-0 bg-white position-absolute top-0 end-0 m-2 rounded-circle px-2 py-1" style="font-size: 0.9rem;"><i class="bi bi-heart"></i></button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Reloj Elegante</h5>
+                <h5 class="card-text fw-bold" style="color: #6A0DAD;">$89.99 <span
+                    class="text-muted fw-lighter fs-6 text-decoration-line-through">$120.00</span></h5>
+                <button class="btn w-100 rounded text-light" style="background-color: #6a11cb; border: none;">
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col py-4">
+            <div class="card cards-e">
+              <img src="https://picsum.photos/800/400" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Bolso de Mano</h5>
+                <h5 class="card-text fw-bold" style="color: #6A0DAD;">$45.99 </h5>
+                <button class="btn w-100 rounded text-light" style="background-color: #6a11cb; border: none;">
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card cards-e">
+              <div class="position-relative">
+                <img src="https://picsum.photos/800/400" class="card-img-top" alt="...">
+            
+                <!-- Badge Oferta -->
+                <span class=" py-1 px-2 badge  position-absolute top-0 start-0 m-2 fw-normal bg-danger">Oferta</span>
+            
+                <!-- Botón Corazón -->
+                <button type="button" class=" border-0 bg-white position-absolute top-0 end-0 m-2 rounded-circle px-2 py-1" style="font-size: 0.9rem;"><i class="bi bi-heart"></i></button>
+              </div>
+              
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Auriculares Bluetooth</h5>
+                <h5 class="card-text fw-bold" style="color: #6A0DAD;">$79.99 <span
+                    class="text-muted fw-lighter fs-6 text-decoration-line-through">$99.99</span></h5>
+                <button class="btn w-100 rounded text-light" style="background-color: #6a11cb; border: none;">
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card cards-e">
+              <img src="https://picsum.photos/800/400" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Gafas de Sol</h5>
+                <h5 class="card-text fw-bold" style="color: #6A0DAD;">$34.99</h5>
+                <button class="btn w-100 rounded text-light" style="background-color: #6a11cb; border: none;">
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card cards-e">
+              <img src="https://picsum.photos/800/400" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Chaqueta de Invierno </h5>
+                <h5 class="card-text fw-bold" style="color: #6A0DAD;">$129.99</h5>
+                <button class="btn w-100 rounded text-light" style="background-color: #6a11cb; border: none;">
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card cards-e">
+              <div class="position-relative">
+                <img src="https://picsum.photos/800/400" class="card-img-top" alt="...">
+            
+                <!-- Badge Oferta -->
+                <span class=" py-1 px-2 badge  position-absolute top-0 start-0 m-2 fw-normal bg-danger">Oferta</span>
+            
+                <!-- Botón Corazón -->
+                <button type="button" class=" border-0 bg-white position-absolute top-0 end-0 m-2 rounded-circle px-2 py-1" style="font-size: 0.9rem;"><i class="bi bi-heart"></i></button>
+              </div>
+              
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Smartphone</h5>
+                <h5 class="card-text fw-bold" style="color: #6A0DAD;">$399.99 <span
+                    class="text-muted fw-lighter fs-6 text-decoration-line-through">$449.99</span></h5>
+                <button class="btn w-100 rounded text-light" style="background-color: #6a11cb; border: none;">
+                  Añadir al carrito
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- Subscribete a nuestro boletin -->
+    <hr class="my-0">
+    <div class="container-fluid py-5" style="background-color: rgba(211, 211, 211, 0.232)">
+      <div class="container">
+        <div class="mb-4 text-center ">
+          <h2 class="fw-bold">Subscríbete a nuestro boletín</h2>
+          <p class="text-muted fs-6 fw-semibold">Recibe las últimas novedades y ofertas exclusivas directamente en tu
+            correo.</p>
+  
+        
+          <div class="row px-sm-5 ">
+            <div class="col-lg-8 col-12 d-flex justify-content-sm-end">
+              <input type="email" class="w-100 d-sm-none form-control" id="exampleFormControlInput1" placeholder="Tu correo electrónico">
+              <input type="email" class="w-75 d-none d-sm-block form-control" id="exampleFormControlInput1" placeholder="Tu correo electrónico">
+            </div>
+            <div class="col-lg-4 col-12 d-flex justify-content-sm-start " >
+              <button class="btn d-sm-none w-100 rounded text-light fw-semibold  "
+                style="background-color: #6a11cb; border: none;">
+                Suscribirse
+              </button>
+              <button class="btn d-none w-50 d-sm-block rounded text-light fw-semibold "
+                style="background-color: #6a11cb; border: none; ">
+                Suscribirse
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+  </main>
+  <!-- footer -->
+  <!-- contacto -->
+  <footer class="" style="background-color: #1f2937;">
+    <div class="container" >
+      <div class="row py-3 px-0  justify-content-evenly">
+        <div class="col-12 col-lg-3">
+          <h5 class="text-light fw-bold mb-3">TiendaChic</h5>
+          <p class="text-muted fw-semibold">Tu tienda de confianza para encontrar los mejores productos con la mejor
+            calidad.</p>
+        </div>
+
+        <div class="col-12 col-lg-3">
+          <h6 class="text-light fw-bold mb-3 ">Enlaces rápidos</h6>
+          <ul class="list-unstyled ">
+            <li class="mb-2"><a href="#inicio" class=" mb-2 text-decoration-none text-muted fw-semibold">Inicio</a></li>
+            <li class="mb-2"><a href="#productos" class="mb-2 text-decoration-none text-muted fw-semibold">Productos</a></li>
+            <li class="mb-2"><a href="#categorias" class="mb-4 text-decoration-none text-muted fw-semibold">Categorías</a></li>
+            <li class="mb-2"><a href="#ofertas" class=" text-decoration-none text-muted fw-semibold">Ofertas</a></li>
+          </ul>
+          
+          
+        </div>
+        <div class=" col-12 col-lg-3">
+          <h6 class="text-light fw-bold mb-3">Ayuda</h6>
+          <ul class="list-unstyled ">
+            <li class="mb-2"><a href="" class=" mb-2 text-decoration-none text-muted fw-semibold">FAQ</a></li>
+            <li class="mb-2"><a href="" class="mb-2 text-decoration-none text-muted fw-semibold">Envíos</a></li>
+            <li class="mb-2"><a href="" class="mb-4 text-decoration-none text-muted fw-semibold">Devoluciones</a></li>
+            <li class="mb-2"><a href="" class=" text-decoration-none text-muted fw-semibold">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-3" id="contacto">
+          <h6 class="text-light fw-bold mb-3">Contacto</h6>
+          <address class="text-muted fw-semibold">
+            <p class="mb-0">Calle Comercio 123</p>
+            <p >Ciudad, CP 12345</p>
+            <p class="mt-2 mb-0">Email: info@tiendachic.com</p>
+            <p >Teléfono: (123) 456-7890</p>
+          </address>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <hr class="my-0 text-light">
+    <div class="my-0 py-3 text-center text-white text-muted fs-6 fw-semibold">
+      <p>© 2025 TiendaChic. Todos los derechos reservados.</p>
+    </div>
+    </div>
+    
+
+  </footer>
+  <script src="./js/bootstrap.bundle.js">
+  </script>
+</body>
+
+</html>
