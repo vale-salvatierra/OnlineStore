@@ -3,6 +3,9 @@ const offCanvas = document.querySelector("#offcanvasRight")
 const closeOffCanvas =  document.querySelector('.btn-close')
 const offcanvasBody = document.querySelector(".offcanvas-body")
 
+
+
+
 let url = "https://api.escuelajs.co/api/v1/products"
 let productos = []
 let loading = false;
